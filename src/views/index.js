@@ -21,6 +21,11 @@ import Modals from './elements/Modals';
 import ProgressBars from './elements/ProgressBars';
 import PaginationPage from './elements/Pagination';
 import ErrorPage from './pages/404';
+import Register from './pages/Register'
+import Users from './pages/Users'
+import Login from './pages/Login'
+import Scan from './pages/Scan'
+import Maps from './pages/maps/Maps'
 
 // See React Router documentation for details: https://reacttraining.com/react-router/web/api/Route
 const pageList = [
@@ -28,6 +33,33 @@ const pageList = [
     name: 'Dashboard',
     path: '/home',
     component: Dashboard,
+  },
+  {
+    name: 'Register',
+    path: '/register',
+    component: Register,
+    isLoggedOut: true
+  },
+  {
+    name: 'Login',
+    path: '/login',
+    component: Login,
+    isLoggedOut: true
+  },
+  {
+    name: 'Scan',
+    path: '/scan',
+    component: Scan,
+  },
+  {
+    name: 'Maps',
+    path: '/maps',
+    component: Maps,
+  },
+  {
+    name: 'Users',
+    path: '/users',
+    component: Users,
   },
   {
     name: 'Buttons',

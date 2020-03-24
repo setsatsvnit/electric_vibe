@@ -19,12 +19,27 @@ export default class SidebarNav extends Component {
     };
 
     const itemType = (item, index) => {
-      if (item.children) {
-        return <NavDropdownItem key={index} item={item} isSidebarCollapsed={this.props.isSidebarCollapsed} />;
-      } else if (item.divider) {
-        return <NavDivider key={index} />;
-      } else {
-        return <NavSingleItem item={item} key={index} />;
+      if(!this.props.isLoggedIn) {
+        if(item.isLoggedOut) {
+          if (item.children) {
+            return <NavDropdownItem key={index} item={item} isSidebarCollapsed={this.props.isSidebarCollapsed} />;
+          } else if (item.divider) {
+            return <NavDivider key={index} />;
+          } else {
+            return <NavSingleItem item={item} key={index} />;
+          }
+        }
+      }
+      else {
+        if(!item.isLoggedOut) {
+          if (item.children) {
+            return <NavDropdownItem key={index} item={item} isSidebarCollapsed={this.props.isSidebarCollapsed} />;
+          } else if (item.divider) {
+            return <NavDivider key={index} />;
+          } else {
+            return <NavSingleItem item={item} key={index} />;
+          }
+        }
       }
     };
 

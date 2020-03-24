@@ -6,6 +6,28 @@ export default {
       icon: 'Home',
     },
     {
+      name: 'Scan',
+      url: '/scan',
+      icon: 'Camera',
+    },
+    {
+      name: 'Register',
+      url: '/register',
+      icon: 'UserPlus',
+      isLoggedOut: true,
+    },
+    {
+      name: 'Login',
+      url: '/login',
+      icon: 'Coffee',
+      isLoggedOut: true,
+    },
+    {
+      name: 'Users',
+      url: '/users',
+      icon: 'Coffee',
+    },
+    {
       name: 'UI Elements',
       icon: 'Layers',
       children: [

@@ -22,7 +22,7 @@ export default function Loader({ small, type }) {
   }
 
   return (
-    <div className={`loader ${size}`} style={{ backgroundImage: `url(${loaderType})` }}>
+    <div id="loading" className={`loader ${size}`} style={{ backgroundImage: `url(${loaderType})`, marginTop: "100px" }}>
       Loading...
     </div>
   );
