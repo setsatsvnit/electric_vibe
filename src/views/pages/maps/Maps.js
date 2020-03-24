@@ -5,7 +5,7 @@ import { Redirect } from "react-router-dom";
 import { withFirebaseHOC } from '../../../firebase'
 // import { withScriptjs, withGoogleMap, GoogleMap, DirectionsRenderer } from "react-google-maps";
 import MapContainer from './MapContainer'
-const url = "https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCUSWjSKUXyiqrNOFPoZg-HKUH3AyMZrXs&callback=initMap"
+const url = ""
 
 class Map extends Component {
   constructor(props) {
