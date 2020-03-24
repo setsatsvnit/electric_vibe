@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "02b49516bec61d2c9f77",
+    "revision": "4c041acfad2947ea3f7a",
     "url": "/electric_vibe/static/css/main.5125d705.chunk.css"
   },
   {
-    "revision": "02b49516bec61d2c9f77",
-    "url": "/electric_vibe/static/js/main.02b49516.chunk.js"
+    "revision": "4c041acfad2947ea3f7a",
+    "url": "/electric_vibe/static/js/main.4c041acf.chunk.js"
   },
   {
     "revision": "451e3e68347617093c50",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/electric_vibe/static/media/location.1105a0c4.png"
   },
   {
-    "revision": "3b57b3cd5563e98bf5a7046ad68d0ae7",
+    "revision": "b9172885887621d7814e9bd6b6863e90",
     "url": "/electric_vibe/index.html"
   }
 ];
