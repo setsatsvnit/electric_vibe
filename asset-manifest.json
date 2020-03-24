@@ -1,7 +1,7 @@
 {
   "main.css": "/electric_vibe/static/css/main.5125d705.chunk.css",
-  "main.js": "/electric_vibe/static/js/main.7caa0301.chunk.js",
-  "main.js.map": "/electric_vibe/static/js/main.7caa0301.chunk.js.map",
+  "main.js": "/electric_vibe/static/js/main.3865f34b.chunk.js",
+  "main.js.map": "/electric_vibe/static/js/main.3865f34b.chunk.js.map",
   "static/js/1.451e3e68.chunk.js": "/electric_vibe/static/js/1.451e3e68.chunk.js",
   "static/js/1.451e3e68.chunk.js.map": "/electric_vibe/static/js/1.451e3e68.chunk.js.map",
   "runtime~main.js": "/electric_vibe/static/js/runtime~main.993561de.js",
@@ -23,6 +23,6 @@
   "static/media/location.png": "/electric_vibe/static/media/location.1105a0c4.png",
   "static/css/main.5125d705.chunk.css.map": "/electric_vibe/static/css/main.5125d705.chunk.css.map",
   "index.html": "/electric_vibe/index.html",
-  "precache-manifest.5ebb340ca4c4021c5005a4bd7a10d2ef.js": "/electric_vibe/precache-manifest.5ebb340ca4c4021c5005a4bd7a10d2ef.js",
+  "precache-manifest.060274332b8d4ccaf45fccf195ed4a2c.js": "/electric_vibe/precache-manifest.060274332b8d4ccaf45fccf195ed4a2c.js",
   "service-worker.js": "/electric_vibe/service-worker.js"
 }
