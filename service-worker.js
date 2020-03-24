@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/electric_vibe/precache-manifest.1adaee504a228f8649cbf14bbe9f077c.js"
+  "/electric_vibe/precache-manifest.281f686fb7bb0cf3b1a5eedad11e70e5.js"
 );
 
 workbox.clientsClaim();
